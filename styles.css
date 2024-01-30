@@ -1,0 +1,119 @@
+
+/* Global styles
+------------------------------------*/
+html{box-sizing: border-box;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+a {
+  color: #EF233C;
+}
+a:hover {
+  text-decoration: none;
+}
+h1, h2 {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+}
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 18px;
+
+}
+
+
+.content-wrap{
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: auto;
+}
+
+.col-narrow{
+  width: 30%;
+  float: left;
+  min-height: 200px;
+}
+.col-wide{
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+  min-height: 200px;
+}
+
+
+
+
+
+
+/* Header & Footer
+------------------------------------*/
+header,
+footer {
+  background: #550015;
+  color: #FFF3C6;
+
+}
+
+/*Header things Only !!!!*/
+
+
+
+.profile-img {
+
+  border-radius: 50%;
+
+}
+
+
+
+header h1,
+header h2 {
+  color: #EDF2F4;
+  margin: 0;
+}
+
+/* Footer !!! */
+  footer{
+    text-align: center;
+  }
+  .contact-info a {
+    padding: 10px;
+    display: inline-block;
+  }
+
+.JMU {
+  padding-bottom: 10px;
+}
+
+
+
+
+
+/* Work Experience
+------------------------------------*/
+.work {
+  background: #EDF2F4;
+}
+
+
+/* Education
+------------------------------------*/
+.education {
+  background: #6f001b;
+  color: #FFF3C6;
+}
